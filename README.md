@@ -1,14 +1,17 @@
-# Welcome to your CDK TypeScript project!
+# AWS CDK With TypeScript Foundations
 
-This is a blank project for TypeScript development with CDK.
+This the companion repo to my blog post [AWS CDK With Typescript Foundations](https://blog.dennisokeeffe.com/blog/2021-08-06-aws-cdk-with-typescript-foundations).
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+It will create a simple S3 bucket and tear that bucket down when destroyed.
 
 ## Useful commands
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+| Command         | Description                                          |
+| --------------- | ---------------------------------------------------- |
+| `npm run build` | Compile TypeScript to JavaScript                     |
+| `npm run watch` | Watch for changes and compile                        |
+| `npm run test`  | Perform the Jest unit tests                          |
+| `cdk deploy`    | Deploy this stack to your default AWS account/region |
+| `cdk diff`      | Compare deployed stack with current state            |
+| `cdk synth`     | Emits the synthesized CloudFormation template        |
+| `cdk destroy`   | Tear down your deployed stack                        |
